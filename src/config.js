@@ -57,7 +57,7 @@ export const siteConfig = {
       id: 2,
       name: 'Alhaji Sani Mohammed',
       role: 'Landlord',
-      content: 'I have trusted Dave with managing my properties in Wuse for over two years. Professional, reliable, and always responsive – a true partner.',
+      content: 'I have trusted Dave with managing my properties in Wuse for over two years. Professional, reliable, and always responsive a true partner.',
       rating: 5
     },
     {
