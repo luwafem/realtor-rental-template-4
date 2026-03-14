@@ -38,7 +38,7 @@ const Header = () => {
               {siteConfig.companyName}
             </span>
             <span className="text-[7px] tracking-[0.5em] uppercase text-white/40 mt-1.5 font-bold">
-              Lekki • Ajah • Lagos
+              Maitama • Wuse • Asokoro • Abuja
             </span>
           </div>
         </Link>
@@ -108,12 +108,12 @@ const Header = () => {
             </nav>
             
             <div className="mt-20 pt-10 border-t border-white/5">
-              <p className="text-[10px] tracking-[0.4em] uppercase text-white/30 mb-6 font-bold">Contact Our Team</p>
+              <p className="text-[10px] tracking-[0.4em] uppercase text-white/30 mb-6 font-bold">Contact Dave</p>
               <p className="text-xl text-white font-light tracking-widest">{siteConfig.phone}</p>
               <div className="mt-8 flex gap-6">
-                <span className="text-[10px] uppercase tracking-widest text-white/20">Lekki</span>
-                <span className="text-[10px] uppercase tracking-widest text-white/20">Ajah</span>
-                <span className="text-[10px] uppercase tracking-widest text-white/20">Ikoyi</span>
+                <span className="text-[10px] uppercase tracking-widest text-white/20">Maitama</span>
+                <span className="text-[10px] uppercase tracking-widest text-white/20">Wuse</span>
+                <span className="text-[10px] uppercase tracking-widest text-white/20">Asokoro</span>
               </div>
             </div>
           </motion.div>

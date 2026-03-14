@@ -30,16 +30,16 @@ const Contact = () => {
   }
 
   const contactMethods = [
-    { label: 'Call Us', value: siteConfig.phone, href: `tel:${siteConfig.phone}` },
+    { label: 'Call Me', value: siteConfig.phone, href: `tel:${siteConfig.phone}` },
     { label: 'Email', value: siteConfig.email, href: `mailto:${siteConfig.email}` },
-    { label: 'WhatsApp', value: 'Chat with us', href: `https://wa.me/${siteConfig.whatsappNumber}` },
+    { label: 'WhatsApp', value: 'Chat with me', href: `https://wa.me/${siteConfig.whatsappNumber}` },
   ]
 
   return (
     <div className="bg-[#050505] text-white min-h-screen">
       <Helmet>
-        <title>Contact Us | {siteConfig.companyName}</title>
-        <meta name="description" content="Get in touch with Mekaddishkem Properties in Lagos. Call, WhatsApp, or email us to schedule viewings or inquire about properties in Lekki, Ajah, and beyond." />
+        <title>Contact Dave | {siteConfig.companyName}</title>
+        <meta name="description" content="Get in touch with Realtor Dave in Abuja. Call, WhatsApp, or email to schedule viewings or inquire about properties in Maitama, Wuse, Asokoro, and beyond." />
       </Helmet>
 
       <section className="pt-32 pb-24 px-6">
@@ -52,7 +52,7 @@ const Contact = () => {
           >
             <span className="text-[10px] tracking-[0.5em] uppercase text-white/40 mb-4 block font-bold">Get in Touch</span>
             <h1 className="text-5xl md:text-8xl font-extralight tracking-tighter leading-none">
-              Contact <span className="italic text-white/90">Us</span>
+              Contact <span className="italic text-white/90">Dave</span>
             </h1>
           </motion.div>
 
@@ -67,7 +67,7 @@ const Contact = () => {
               <div>
                 <h3 className="text-[10px] tracking-[0.3em] uppercase text-white/30 mb-6 font-bold">Let's Connect</h3>
                 <p className="text-lg font-light text-white/60 leading-relaxed italic">
-                  Whether you're looking for your dream home, a rental property, or expert advice in Lagos, we're here to help. Reach out today.
+                  Whether you're looking for your dream home, a rental property, or expert advice in Abuja, I'm here to help. Reach out today.
                 </p>
               </div>
 
@@ -99,7 +99,7 @@ const Contact = () => {
                   >
                     <div className="w-12 h-[1px] bg-white/20 mb-10" />
                     <h2 className="text-2xl font-extralight tracking-[0.3em] uppercase mb-4 text-white italic">Message Received</h2>
-                    <p className="text-white/40 text-[11px] tracking-widest uppercase font-light">Thank you for reaching out. We'll get back to you shortly.</p>
+                    <p className="text-white/40 text-[11px] tracking-widest uppercase font-light">Thank you for reaching out. I'll get back to you shortly.</p>
                   </motion.div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-12">

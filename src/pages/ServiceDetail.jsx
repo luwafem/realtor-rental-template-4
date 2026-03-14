@@ -53,7 +53,7 @@ const ServiceDetail = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.8 }}
           >
-            <span className="text-[10px] tracking-[0.6em] uppercase text-white/40 mb-6 block font-bold">Our Service</span>
+            <span className="text-[10px] tracking-[0.6em] uppercase text-white/40 mb-6 block font-bold">Personal Service</span>
             <h1 className="text-5xl md:text-8xl font-extralight tracking-tighter leading-none">
               {service.title.split(' ').map((word, i) => i === 1 ? <span key={i} className="italic">{word} </span> : word + ' ')}
             </h1>
@@ -75,7 +75,7 @@ const ServiceDetail = () => {
             {service.features && (
               <div className="space-y-16">
                 <div>
-                  <h3 className="text-[10px] tracking-[0.4em] uppercase text-white/20 mb-10 font-bold">What We Offer</h3>
+                  <h3 className="text-[10px] tracking-[0.4em] uppercase text-white/20 mb-10 font-bold">What I Offer</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-16">
                     {service.features.map((feature, idx) => (
                       <motion.div 
@@ -124,7 +124,7 @@ const ServiceDetail = () => {
               <div className="mt-10 pt-10 border-t border-white/5 space-y-4">
                 <div className="flex justify-between items-center">
                   <span className="text-[9px] uppercase tracking-widest text-white/30 font-bold">Service Area</span>
-                  <span className="text-[10px] uppercase tracking-widest text-white/60">Lekki, Ajah & Lagos</span>
+                  <span className="text-[10px] uppercase tracking-widest text-white/60">Maitama, Wuse, Asokoro & Abuja</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-[9px] uppercase tracking-widest text-white/30 font-bold">Documentation</span>

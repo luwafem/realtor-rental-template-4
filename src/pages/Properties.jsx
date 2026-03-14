@@ -13,8 +13,8 @@ const Properties = () => {
   return (
     <div className="bg-[#050505] text-white min-h-screen">
       <Helmet>
-        <title>Properties in Lekki & Ajah | {siteConfig.companyName}</title>
-        <meta name="description" content="Explore our curated selection of residential and commercial properties for sale and rent in Lekki, Ajah, and across Lagos State." />
+        <title>Properties in Maitama, Wuse & Asokoro | {siteConfig.companyName}</title>
+        <meta name="description" content="Explore my curated selection of residential and commercial properties for sale and rent in Maitama, Wuse, Asokoro, and across Abuja." />
       </Helmet>
 
       {/* Gallery Header */}
@@ -23,11 +23,11 @@ const Properties = () => {
           <motion.div {...fadeInUp} className="max-w-4xl">
             <span className="text-[10px] tracking-[0.5em] uppercase text-white/40 mb-6 block font-bold">Featured Properties</span>
             <h1 className="text-5xl md:text-8xl font-extralight tracking-tighter leading-none mb-10">
-              The Lagos <br /> <span className="italic text-white/90">Portfolio.</span>
+              The Abuja <br /> <span className="italic text-white/90">Portfolio.</span>
             </h1>
             <div className="flex flex-col md:flex-row gap-8 items-start justify-between border-t border-white/5 pt-10">
               <p className="text-white/50 font-light max-w-lg leading-relaxed italic">
-                A handpicked selection of premium properties across Lagos’s most desirable neighborhoods from Lekki Phase 1 to Ajah, Ikoyi, and beyond.
+                A handpicked selection of premium properties across Abuja’s most desirable neighborhoods – from Maitama to Wuse, Asokoro, and beyond.
               </p>
               <div className="flex items-center gap-4">
                 <span className="text-[9px] uppercase tracking-widest text-white/20 font-bold">Available Listings:</span>
@@ -66,7 +66,7 @@ const Properties = () => {
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-[10px] uppercase tracking-[0.3em] text-white/30 mb-8 font-bold">Looking for something specific?</p>
           <h2 className="text-3xl md:text-4xl font-extralight italic mb-12 text-white/90">
-            Let us help you find <br className="hidden md:block" /> your perfect property in Lagos
+            Let me help you find <br className="hidden md:block" /> your perfect property in Abuja
           </h2>
           <div className="flex flex-col items-center gap-6">
             <a 

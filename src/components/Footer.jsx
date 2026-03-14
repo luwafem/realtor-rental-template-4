@@ -91,7 +91,7 @@ const Footer = () => {
             </div>
             <div className="mt-12 md:mt-auto">
               <span className="text-[9px] tracking-[0.4em] uppercase text-white/10 italic">
-                Lekki &bull; Ajah &bull; Lagos
+                Maitama &bull; Wuse &bull; Asokoro &bull; Abuja
               </span>
             </div>
           </div>
@@ -104,7 +104,7 @@ const Footer = () => {
               &copy; {currentYear} {siteConfig.companyName}. All rights reserved.
             </p>
             <p className="text-[8px] tracking-[0.1em] text-white/10 uppercase">
-              Licensed Real Estate Agent in Lagos State, Nigeria.
+              Licensed Real Estate Agent in Abuja, Nigeria.
             </p>
           </div>
           <div className="flex gap-8">
